@@ -12,7 +12,7 @@ config :dashboard,
 
 # Configures the endpoint
 config :dashboard, DashboardWeb.Endpoint,
-  url: [host: "dash.polybot.io"],
+  url: [host: "localhost"],
   adapter: Bandit.PhoenixAdapter,
   render_errors: [
     formats: [html: DashboardWeb.ErrorHTML, json: DashboardWeb.ErrorJSON],
